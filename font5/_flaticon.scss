@@ -1,0 +1,49 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 03/01/2018 18:15
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-professional-hair-treatment-with-creams-and-heating-standing-hairdryer:before { content: "\f100"; }
+.flaticon-cancer:before { content: "\f101"; }
+.flaticon-tool-surgeon:before { content: "\f102"; }
+.flaticon-plastered-foot:before { content: "\f103"; }
+.flaticon-radiography:before { content: "\f104"; }
+    
+    $font-Flaticon-professional-hair-treatment-with-creams-and-heating-standing-hairdryer: "\f100";
+    $font-Flaticon-cancer: "\f101";
+    $font-Flaticon-tool-surgeon: "\f102";
+    $font-Flaticon-plastered-foot: "\f103";
+    $font-Flaticon-radiography: "\f104";
